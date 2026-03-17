@@ -27,4 +27,13 @@ public class Druida {
     private int cargasFormaSelvagem;
 
     private String circuloDruidico;
+
+
+    public Druida(String nome, int nivel, int sabedoria, int cargasFormaSelvagem, String circuloDruidico) {
+        this.nome = nome;
+        this.nivel = nivel;
+        this.sabedoria = sabedoria;
+        this.cargasFormaSelvagem = cargasFormaSelvagem;
+        this.circuloDruidico = circuloDruidico;
+    }
 }
